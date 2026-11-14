@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+        }
+        .jumbotron {
+            background-color: #e9ecef;
+            border-left: 6px solid #ff5a43;
+            
+        }
+        .jumbotron h1 {
+            color: #ff5a43;
+        }
+        .section-title {
+            margin-top: 30px;
+            margin-bottom: 20px;
+            color: #ff5a43;
+        }
+        p {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1>my science lab</h1>
+            <p class="lead">Welcome to my science lab!</p>
+            <button class="btn btn-primary">chemistry</button>
+            <button class="btn btn-success">biology</button>
+            <button class="btn btn-warning">physics</button>
+            <button class="btn btn-danger">astronomy</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 class="section-title">experiments completed <span class="badge badge-danger">4</span></h2>
+        <p>chemistry <span class="badge badge-primary">7 experiments</span></p>
+        <p>biology <span class="badge badge-success">5 experiments</span></p>
+        <p>physics <span class="badge badge-warning">3 experiments</span></p>
+        <p>astronomy <span class="badge badge-info">4 experiments</span></p>
+        
+        <h2 class="section-title">research progress</h2>
+        <p>chemistry</p>
+        <div class="progress mb-3">
+            <div class="progress-bar bg-primary" style="width: 85%">85%</div>
+        </div>
+        <p>biology</p>
+        <div class="progress mb-3">
+            <div class="progress-bar bg-success" style="width: 70%">70%</div>
+        </div>
+        <p>physics</p>
+        <div class="progress mb-3">
+            <div class="progress-bar bg-warning" style="width: 60%">60%</div>
+        </div>
+        <p>astronomy</p>
+        <div class="progress mb-3">
+            <div class="progress-bar bg-info" style="width: 50%">50%</div>
+        </div>
+    </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
