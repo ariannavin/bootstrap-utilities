@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f0f4ff;
+        }
+        .navbar {
+            background-color: #1a237e;
+        }
+        .navbar-brand, .nav-link {
+            color: #ffffff !important;
+        }
+        .section-title {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: #1a237e;
+        }
+        </style>
+</head>
+<body>
+   <nav class="navbar navbar-expand-sm">
+    <a href="#" class="navbar-brand">Planet Explorer</a>
+    <ul class="navbar-nav">
+        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Planets</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Stars</a></li>
+    </ul>
+   </nav>
+   <div class="container mt-4">
+    <h4 class="section-title">scanning the galaxy</h4>
+    <div class="spinner-border text-primary" role="status"></div>
+    <div class="spinner-border text-warning" role="status"></div>
+    <div class="spinner-border text-danger" role="status"></div>
+    
+    <h4 class="section-title">featured planets</h4>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">earth</h5>
+                    <p class="card-text">Our home planet, the only known celestial body to harbor life.</p>
+                    <a href="#" class="btn btn-primary">Explore</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">mars</h5>
+                    <p class="card-text">The red planet, known for its iron oxide surface and potential for future colonization.</p>
+                    <a href="#" class="btn btn-primary">Explore</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">jupiter</h5>
+                    <p class="card-text">The largest planet in our solar system, known for its Great Red Spot and many moons.</p>
+                    <a href="#" class="btn btn-primary">Explore</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h4 class="section-title">browse more planets</h4>
+    <ul class="pagination">
+        <li class="page-item"><a href="#" class="page-link">previous</a></li>
+        <li class="page-item"><a href="#" class="page-link">1</a></li>
+        <li class="page-item"><a href="#" class="page-link">2</a></li>
+        <li class="page-item"><a href="#" class="page-link">3</a></li>
+        <li class="page-item"><a href="#" class="page-link">next</a></li>
+    </ul>
+   </div>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
